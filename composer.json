@@ -1,0 +1,18 @@
+{
+  "name": "mailer/rest-api",
+  "description": "Mailer REST API client library",
+  "keywords": [
+    "mailer",
+    "rest",
+    "api"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mailer\\RestApi\\": "src/"
+    }
+  }
+}
