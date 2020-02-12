@@ -1,10 +1,10 @@
-     # Mailer REST client library
-A simple SendPulse REST client library and example for PHP.
+ # Mailer REST client library
+A simple Sendbox REST client library and example for PHP.
 
 ### Installing
 Via Composer:
 ```bash
-composer require mailer/rest-api
+composer require sendbox/rest-api
 ```
 
 ### Usage
@@ -47,5 +47,4 @@ var_dump($ApiClient->listAddressBooks());
 var_dump($ApiClient->addEmails($bookID, $emails, $additionalParams));
 ```
 
-# Sendbox
 # Sendbox
