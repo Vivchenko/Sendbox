@@ -8,8 +8,8 @@ require '../vendor/autoload.php';
 use Mailer\RestApi\ApiClient;
 use Mailer\RestApi\Storage\FileStorage;
 
-define('API_USER_ID', '89cc92f90517713b6ecde653fdd74e88');
-define('API_SECRET', 'bc741c8d9c6cef0d05c0f36291a6c9fa');
+define('API_USER_ID', '');
+define('API_SECRET', '');
 define('PATH_TO_ATTACH_FILE', __FILE__);
 
 $ApiClient = new ApiClient(API_USER_ID, API_SECRET, new FileStorage());
