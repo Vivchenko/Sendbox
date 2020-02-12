@@ -1,5 +1,5 @@
 {
-  "name": "mailer/rest-api",
+  "name": "sendbox/rest-api",
   "description": "Mailer REST API client library",
   "keywords": [
     "mailer",
